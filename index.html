@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="game">
+
+        
+        <div class="stage">
+
+            <div class="left-side">
+                <div id="past_time">00</div>
+                <div id="square_img">
+                                <img src="" id="viewImg">
+
+                                <img src="./img/yellow01.png" id="1" class="arrayDices" style="display:none">
+                                <img src="./img/yellow02.png" id="2" class="arrayDices" style="display:none">
+                                <img src="./img/yellow03.png" id="3" class="arrayDices" style="display:none">
+                                <img src="./img/yellow04.png" id="4" class="arrayDices" style="display:none">
+                                <img src="./img/yellow05.png" id="5" class="arrayDices" style="display:none">
+                                <img src="./img/yellow06.png" id="6" class="arrayDices" style="display:none">
+                </div>
+            </div><!--  --><div class="right-side">
+                <div id="past_time2">00</div>
+                        <div id="square_img2">
+
+                            <img src="" id="viewImg2">
+                            <img src="./img/red01.png" id="1" class="arrayDicesRed" style="display:none">
+                            <img src="./img/red02.png" id="2" class="arrayDicesRed" style="display:none">
+                            <img src="./img/red03.png" id="3" class="arrayDicesRed" style="display:none">
+                            <img src="./img/red04.png" id="4" class="arrayDicesRed" style="display:none">
+                            <img src="./img/red05.png" id="5" class="arrayDicesRed" style="display:none">
+                            <img src="./img/red06.png" id="6" class="arrayDicesRed" style="display:none">
+
+                        </div>
+            </div>  
+            <div id="resultado">
+                <h1 id="yelloWins" style="display:none">PARABÉNS JOGADOR AMARELO!</h1>
+                <h1 id="redWins" style="display:none">PARABÉNS JOGADOR VERMELHO!</h1>
+                <h1 id="empate" style="display:none">DEU EMPATE, JOGUE NOVAMENTE!</h1>
+            </div>
+        </div>
+         
+        <button id="play1" class="play">player 1</button>
+        <button id="play2" class="play">player 2</button>
+
+        
+
+    </div>
+    <script src="./myJavas.js"></script>
+</body>
+
+</html>
